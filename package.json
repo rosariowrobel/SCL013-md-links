@@ -1,4 +1,33 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "@rosariowrobel/md-links",
+  "version": "0.1.0",
+  "author": "Rosario Wrobel",
+  "descripción": "La libreria para extraer y validar los links de los archivos Markdown",
+  "license": "ISC",
+  "main": "02-links.js",
+  "bin": {
+    "mdlinks": "cli.js"
+  },
+  "description": "## Índice",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosariowrobel/SCL013-md-links.git"
+  },
+  "keywords": [
+    "[md-link]"
+  ],
+  "contributors": [
+    "Linda Rizo",
+    "Rosario Wrobel"
+  ],
+  "bugs": {
+    "url": "https://github.com/rosariowrobel/SCL013-md-links/issues"
+  },
+  "homepage": "https://github.com/rosariowrobel/SCL013-md-links#readme"
 }
