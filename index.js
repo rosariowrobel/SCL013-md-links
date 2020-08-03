@@ -18,6 +18,7 @@ if(err){
 
 }else {
   console.log(data.trim().split('\n').filter(word => word.includes('https://')));
-  
+  //console.log(data.trim().split('\n').filter(word => word.includes('/https?:\/\/?!.*:\/\/)\S+(?=\)/')));
+
 }
 });
