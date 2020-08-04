@@ -49,19 +49,5 @@ const getStatus = (url) => {
     })
   });
 };
-/*
-getStatus(url)
-.then (res =>{
-  console.log("El link", url, "es", res);
-})
-.catch (err => {
-  console.log(err);
-})*/
-/*Promise.all([getMd(file), getStatus(url)])
-.then(res => {
-  console.log(res);
-})*/
-
-file.includes(--validate)
 
 
