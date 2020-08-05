@@ -1,12 +1,12 @@
 {
   "name": "@rosariowrobel/md-links",
   "version": "0.1.0",
-  "author": "Rosario Wrobel",
+  "author": "Linda Riza y Rosario Wrobel",
   "descripción": "La libreria para extraer y validar los links de los archivos Markdown",
   "license": "ISC",
-  "main": "02-links.js",
+  "main": "index.js",
   "bin": {
-    "mdlinks": "cli.js"
+    
   },
   "description": "## Índice",
   "directories": {

@@ -14,6 +14,10 @@
 
 ***
 
+![md-links](https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg)
+
+***
+
 ## 1. Preámbulo
 
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
@@ -31,94 +35,35 @@ herramienta usando [Node.js](https://nodejs.org/), que lea y analice archivos
 en formato `Markdown`, para verificar los links que contengan y reportar
 algunas estadísticas.
 
-![md-links](https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg)
+***
 
 ## 2. Diagrama de Flujo 
 
 ![diagrama](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/DiagramaFlujo_md-links.jpg)
 
+***
 
 ## 3. Trello para la implementación de la librería
 
-Diseñar tu propia librería es una experiencia fundamental para cualquier
-desarrollador porque te obliga a pensar en la interfaz (API) de tus
-_módulos_ y cómo será usado por otros developers. Debes tener especial
-consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
-
-A continuación puedes ver los objetivos de aprendizaje de este proyecto:
-
-### JavaScript
-
-* [ ] Uso de condicionales (if-else | switch | operador ternario)
-* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
-* [ ] Manipular arrays (filter | map | sort | reduce)
-* [ ] Manipular objects (key | value)
-* [ ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-| [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
-* [ ] [Uso de callbacks.](https://developer.mozilla.org/es/docs/Glossary/Callback_function)
-* [ ] [Consumo de Promesas.](https://scotch.io/tutorials/javascript-promises-for-dummies#toc-consuming-promises)
-* [ ] [Creación de Promesas.](https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/)
-
-### Node
-
-* [ ] Uso de sistema de archivos. ([fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html))
-* [ ] Instalar y usar módulos. ([npm](https://www.npmjs.com/))
-* [ ] Creación de modules. [(CommonJS)](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
-* [ ] [Configuración de package.json.](https://docs.npmjs.com/files/package.json)
-* [ ] [Configuración de npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [ ] Uso de CLI (Command Line Interface - Interfaz de Línea de Comando)
-
-### Testing
-
-* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
-* [ ] [Testeo asíncrono.](https://jestjs.io/docs/es-ES/asynchronous)
-* [ ] Uso de Mocks manuales.
-
-### Estructura del código y guía de estilo
-
-* [ ] Organizar y dividir el código en módulos (Modularización)
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
-* [ ] Uso de linter (ESLINT)
-
-### Git y GitHub
-
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
-* [ ] Colaboración en Github (branches | pull requests | |tags)
-* [ ] Organización en Github (projects | issues | labels | milestones)
-
-### HTTP
-
-* [ ] Verbos HTTP ([http.get](https://nodejs.org/api/http.html#http_http_get_options_callback))
-
-### Fundamentos de programación
-
-* [ ] [Recursión.](https://www.youtube.com/watch?v=lPPgY3HLlhQ)
+![organizacion](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/Organizacion.png)
 
 ***
 
-## 4. Consideraciones generales
+## 4. USO
 
-* Este proyecto se debe "resolver" en duplas.
+* Para acceder se tiene que ingresar al sitio de npm y buscar "rosariowrobel/md-links" .
 
-* La librería y script ejecutable (herramienta de línea de comando -
-  CLI) debe estar implementada en JavaScript para ser ejecutada con
-  Node.js. **Está permitido usar librerías externas**.
+* Para instalar ingrese npm i rosariowrobel/md-links 
 
-* Tu módulo debe ser instalable via `npm install <github-user>/md-links`. Este
-  módulo debe incluir tanto un _ejecutable_ que podamos invocar en la línea de
-  comando como una interfaz que podamos importar con `require` para usarlo
-  programáticamente.
+* Copie el código que se encuentra en el archivo index.js
 
-* Los tests unitarios deben cubrir un mínimo del 70% de _statements_,
-  _functions_, _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
-  para tus pruebas unitarias.
+* Para que ejecute ingrese en la terminal >>  node nombre de carpeta ruta del archivo (donde están los archivos .md)
 
-* Para este proyecto no está permitido utilizar `async/await`.
+Ejemplo : node index.js ./README.md
 
-* Para este proyecto es opcional el uso de ES Modules `(import/export)`, en el
-  caso que optes utilizarlo deberás crear un script de `build` en el `package.json`
-  que los transforme en `requires` y `module.exports` con ayuda de babel.
+Al "apretar enter" se imprimira un listado con el link del archivo , su texto y ruta.
+
+Además de el estado del link
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
