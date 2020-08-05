@@ -3,8 +3,8 @@
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [2. Diagrama de Flujo](#2-diagrama-de-flujo)
+* [3. Trello para la implementación de la librería](#3-trello-para-la-implementación-de-la-librería)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Entregables](#6-entregables)
@@ -33,22 +33,12 @@ algunas estadísticas.
 
 ![md-links](https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg)
 
-## 2. Resumen del proyecto
+## 2. Diagrama de Flujo 
 
-[Node.js](https://nodejs.org/es/) es un entorno de ejecución para JavaScript
-construido con el [motor de JavaScript V8 de Chrome](https://developers.google.com/v8/).
-Esto nos va a permitir ejecutar JavaScript en el entorno del sistema operativo,
-ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder
-interactuar con el sistema en sí, archivos, redes, ...
+![diagrama](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/DiagramaFlujo_md-links.jpg)
 
-En este proyecto nos alejamos un poco del navegador para construir un programa
-que se ejecute usando Node.js, donde aprenderemos sobre cómo interactuar con el
-sistema archivos, con el entorno (_proceso_, _env_, _stdin/stdout/stderr_), ...
 
-En este proyecto crearás una herramienta de línea de comando (CLI) así como tu
-propia librería (o biblioteca - library) en JavaScript.
-
-## 3. Objetivos de aprendizaje
+## 3. Trello para la implementación de la librería
 
 Diseñar tu propia librería es una experiencia fundamental para cualquier
 desarrollador porque te obliga a pensar en la interfaz (API) de tus
