@@ -74,7 +74,7 @@ Al "apretar enter" se imprimira un listado con el link del archivo , su texto y 
 
 Además de el estado del link
 
-![resultado](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/Organizacion.png)
+![uso](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/uso.png)
 
 ## 5. Links de prueba
 
