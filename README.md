@@ -82,7 +82,7 @@ Además de el estado del link
 
 [BUENO](https://github.com/rosariowrobel)
 
-[MALO](https://github.com/iRizo)
+[MALO](https://github.com/i+izo)
 
 [MALO](https://github.com/rosariowrobl)
 
