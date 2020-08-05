@@ -5,9 +5,7 @@
   "descripción": "La libreria para extraer y validar los links de los archivos Markdown",
   "license": "ISC",
   "main": "index.js",
-  "bin": {
-    
-  },
+  "bin": {},
   "description": "## Índice",
   "directories": {
     "test": "test"
