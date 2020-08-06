@@ -60,9 +60,9 @@ También se encuentran links de aprendizajes sobre NODE.JS y librerías.
 
 ## 4. USO
 
-* Para acceder se tiene que ingresar al sitio de npm y buscar "rosariowrobel/md-links".
+* Para acceder se tiene que ingresar al sitio de npm y buscar "ro-li-md-links".
 
-* Para instalar ingrese npm i rowro-liri-s-v/md-links.
+* Para instalar ingrese npm i ro-li-md-links.
 
 * Copie el código que se encuentra en el archivo index.js.
 
