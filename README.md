@@ -39,9 +39,9 @@ Es un programa que muestra lo que hay dentro de un 'archivo .md', tanto los enla
 
 ***
 
-## 2. Diagrama de Flujo 
+## 2. Diagrama de Flujo
 
-* A traves del diagrama de flujo se observa la lógica de la librería. 
+* A traves del diagrama de flujo se observa la lógica de la librería.
 
 ![diagrama](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/DiagramaFlujo_md-links.jpg)
 
@@ -62,7 +62,7 @@ También se encuentran links de aprendizajes sobre NODE.JS y librerías.
 
 * Para acceder se tiene que ingresar al sitio de npm y buscar "rosariowrobel/md-links".
 
-* Para instalar ingrese npm i rosariowrobel/md-links.
+* Para instalar ingrese npm i rowro-liri-s-v/md-links.
 
 * Copie el código que se encuentra en el archivo index.js.
 
@@ -78,7 +78,7 @@ Además de el estado del link
 
 ## 5. Links de prueba
 
-[BUENO](https://github.com/LiRizo) 
+[BUENO](https://github.com/LiRizo)
 
 [BUENO](https://github.com/rosariowrobel)
 
@@ -86,8 +86,8 @@ Además de el estado del link
 
 [MALO](https://github.com/rosariowrobl)
 
-## 6. Autores 
+## 6. Autores
 
-* Linda Rizo 
-* Rosario Wrobel 
+* Linda Rizo
+* Rosario Wrobel
 
