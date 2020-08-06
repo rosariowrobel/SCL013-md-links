@@ -52,7 +52,7 @@ Es un programa que muestra lo que hay dentro de un 'archivo .md', tanto los enla
 * Se creó en TRELLO la organización y planificación del mismo, haciendo uso de objetivo de aprendizaje (por sprint), listas para asignar tareas por funciones y dentro de cada una un checklist con tareas más pequeñas.
 También se encuentran links de aprendizajes sobre NODE.JS y librerías.
 
-![organizacion](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/Organizacion.png)
+![organizacion](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/Organizacion.jpg)
 
 [TRELLO](https://trello.com/b/E6URLEl4/md-links)
 
@@ -74,7 +74,7 @@ Al "apretar enter" se imprimira un listado con el link del archivo , su texto y 
 
 Además de el estado del link
 
-![uso](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/uso.png)
+![uso](https://github.com/rosariowrobel/SCL013-md-links/blob/master/images/uso.jpg)
 
 ## 5. Links de prueba
 
