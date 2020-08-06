@@ -2,6 +2,7 @@ const fs = require("fs");//Nos permite acceder al sistema de archivos, viene inc
 let file = process.argv[2];//Toma lo que se le da desde consola
 //const axios = require ('axios');//librería para hacer solicitudes HTTP
 const fetch1 = require("node-fetch");
+const chalk = require('chalk');
 const fetch = require("fetch");
 const fetchUrl = fetch.fetchUrl;
 //Función que lee el archivo
@@ -32,8 +33,10 @@ const urlStats = (links) => {
       })
       .then(() => {
         if (ok + broken === links.length)
-          console.log(
-            ` ✔ Total : ${links.length}\n ✔ Unique : ${ok}\n ✖ Broken : ${broken}`
+          console.log(`
+            ${chalk.cyanBright("✔ Total : " + links.length)}
+            ${chalk.greenBright("✔ Unique :" + ok)}
+            ${chalk.redBright("✖ Broken :" + broken)}`
           );
       });
   }
@@ -50,14 +53,15 @@ fs.readFile(file, "utf-8", (err, file) => {
     links.forEach(element => {
       getStatus(element)
         .then(res => {
-          console.log("El link", element, "es", res);
+          console.log(chalk.blueBright("El link"), chalk.cyanBright(element), chalk.blueBright("es"), chalk.magentaBright(res));
+
         })
         .catch(err => {
           console.log(err);
         })
     })
     urlStats(links);
-    console.log(file, "entre aqui!!")
+    //console.log("Esto es lo que tiene el .md seleccionado", file);
   }
 
 });
@@ -67,10 +71,12 @@ const getStatus = (url) => {
       if (error) {
         reject(error)
       } else {
-        resolve(meta.status);
+        resolve([meta.status]);
       }
     })
   });
 };
+
+console.log(chalk.yellowBright('Linda'), 'y', chalk.yellowBright('Rosario'));
 
 
